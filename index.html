@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container navigation pt-3">
+      <div class="row">
+        <div class="col-6 d-flex justify-content-start align-items-center">
+          <i class="fas fa-code fa-2x text-warning pb-3"></i>
+          <h5 class="d-inline pl-2 text-white">Portfolio</h5>
+        </div>
+        <div class="col-6 pt-2">
+          <div
+            class="row text-center p-0 d-flex justify-content-end align-items-center"
+          >
+            <div class="col-3">
+              <a href="#about" class="text-white navigation-link">About</a>
+            </div>
+            <div class="col-3">
+              <a href="#projects" class="text-white navigation-link"
+                >Projects</a
+              >
+            </div>
+            <div class="col-3">
+              <a href="#social-media" class="text-white navigation-link"
+                >Social Media</a
+              >
+            </div>
+            <div class="col-3">
+              <a
+                target="_blank"
+                class="text-white navigation-link"
+                >Resume</a
+              >
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="main-container container">
+      <div class="row main_row">
+        <div class="col-6">
+          <h2 class="text-white">Hello, I'm</h2>
+          <h1 class="text-warning m-heading">Neha Jijy</h1>
+          <h2 class="text-white">Undergraduate Student</h2>
+        </div>
+        <div class="col-6">
+          <img
+            src="./images/Picture1.png"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="container about p-5">
+      <div class="row">
+        <div class="col-6">
+          <img src="./images/about_img.svg" class="img-fluid" />
+        </div>
+        <div class="col-6 pl-5 pt-5 pb-5 text-white">
+          <h3 class="text-warning">About Me</h3>
+          <h1 class="m-heading">A little bit about me</h1>
+          <p>
+            An individual with a thirst to learn, and a desire to make a difference to people, organizations, and industries by applying my skills, knowledge, and experience. 
+            A dedicated and hard-working person with the ambition to do something unique which will be helpful for society. I enjoy reading books, watching movies, and coding.
+          </p>
+          <br/>
+          <p>
+            I'm skilled in Python and C programming. I enjoy App Development using Flutter and designing creations in Adobe products such as Photoshop, Premiere Pro, After effects. I love exploring and learning different technologies and I try my best to improve my skills. I can work effectively in a team. I'm passionate about cybersecurity and would like to pursue a career in the same domain.
+          </p>
+          <button class="btn btn-outline-warning">Learn More</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="container mt-5 pt-5">
+      <h1 class="text-warning mb-3 pb-2">My Projects</h1>
+      <div class="row">
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/warehouse.jpg"
+              class="card-img-top"
+              style="height: 13rem;"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">smarTangle Warehouse Management System</h5>
+              <p class="card-text">
+                A Tangle network based SaaS Warehouse Optimization System for a Food Warehouse that covers tracking of the movement, quality and shelf life of the product and also predicts the requirement of raw materials based on daily demands for a long period using the FbProphet Time Series forecasting model. The project consists of a Django-based web application as well as a Flutter based mobile application.
+              </p>
+              <a href="https://www.youtube.com/watch?v=RXRktCTKABk" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/Bank.jpg"
+              class="card-img-top img-fluid"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">BankEasy</h5>
+              <p class="card-text">
+                A connected, secure, and contactless banking system, Bank Easy, involves the incorporation of the NFC technology in mobiles and modern credit/debit cards alongside secure QR scanning paired up with a two-factor authentication hardware key we call BEKey, wired with Tangle networking
+              </p>
+              <a href="https://www.youtube.com/watch?v=PvgbTnNox_k" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/Emotion.jpg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Emotion Detector</h5>
+              <p class="card-text">
+                Automate detection of different emotions from textual comments and feedback. Developed a system that could analyze and label any piece of text, especially tweets and posts on social media according to thirteen emotion-categories such as happiness, sadness, fun, surprise, worry, relief, anger, boredom, love, hate, enthusiasm, anger, empty and neutral by making use of its textual features, a variety of NLP tools and standard Machine Learning classifiers.
+              </p>
+              <a href="https://github.com/NehaJijy/Automate-detection-of-different-emotions-from-textual-comments-and-feedback" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+      </div>>  
+
+    <!-- Social Media Section -->
+    <div id="social-media" class="container-fluid">
+      <div class="container text-white py-5">
+        <h4 class="text-warning">Social Media</h4>
+        <h1 class="m-heading">Let's be friends!</h1>
+        <div class="row pt-5">
+          <div class="col-3 media_link btn" href="#">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <a href="https://www.linkedin.com/in/nehajijy/" class="m-0 pt-2 text-white"><h3>LinkedIn</h3></a>>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-linkedin-in fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3 media_link btn">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <a href="https://github.com/NehaJijy" class="m-0 pt-2 text-white"><h3>GitHub</h3></a>>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-github fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3 media_link bg-warning btn">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-dark">Email</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fas fa-envelope fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-muted text-center py-3 mt-5">
+        <h5>
+          Copyright &copy; 2021 |
+          <a class="text-warning text-decoration-none" href="#about"
+            >Neha Jijy</a
+          >
+        </h5>
+      </div>
+    </footer>
+  </body>
+</html>
